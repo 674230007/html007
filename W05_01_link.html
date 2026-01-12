@@ -120,20 +120,22 @@
         padding-left: 10px;
         color: rgb(161, 160, 160);
         margin-top: 15px;
+        border-radius: 2px;
     }
-    .button-container {
-        display: block;
-        gap: 10px;
-        margin: 20px 0;
-    }
-    .btn{
-        background-color: white;
+    .my-button{
+        background-color: #f0f0f0; 
+        color: #000000;
+        padding: 4px 10px;        
+        margin-right: 5px;
         border: 1px solid #767676;
+    }
+    .btn-visit{
+        background-color: rgb(36, 117, 246);
         font-size: 16px;
-        font-family: sans-serif;
-        padding: 5px 15px;
-        cursor: pointer;
-        color: #333333 !important;
+        text-decoration: none;
+        padding: 10px 20px;
+        border-radius: 8px;
+        color: #ffffff !important;
     }
     .down{
         background-color: yellow;
@@ -207,6 +209,7 @@
             &lt;/a&gt;</pre>
                 <a href="">Send an Email</a>
             </div>
+
             <!--Card 4 :-->
             <div class="card1 module-4">
                 <h2>4.Download Links</h2>
@@ -215,34 +218,30 @@
                 <div class="note">💡ต้องมีไฟล์ในโฟลเดอร์จึงจะดาวน์โหลดได้</div>
             </div>
         </div>
+
             <!--Card 5 :-->
             <div class="card1 module-5">
                 <h2>5.Button Links</h2>
                 <p>ลิงก์ที่ออกแบบให้คล้ายปุ่ม เหมาะกับปุ่มสมัคร ปุ่มอ่านเพิ่มเติม หรือปุ่มนำทาง</p>
-            
-                <pre>
-            &lt;a href="https://www.example.com" class="btn-link"&gt;
-            Visit Website
-            &lt;/a&gt;
+
+                <pre>&lt;a href="https://www.example.com" class="btn-link"&gt;
+                Visit Website
+                &lt;/a&gt;
             </pre>
-    
-            <button onclick="location.href=">Visit Website</button>
-            <p>สร้างปุ่มด้วยแท็ก button</p>
-            
-                    <pre>
-            &lt;button onclick="document.location='index.html'"&gt;HTML Tutorial&lt;/button&gt;
-            - มักใช้เมื่อลิงก์ไป หน้าในเว็บเดียวกัน
-            - ผูกกับ DOM (document) โดยตรง
-            
-            &lt;button onclick="location.href='https://www.example.com'"&gt;Visit Website&lt;/button&gt;
-            - นิยมใช้มากกว่า
-            - เหมาะทั้งลิงก์ ภายในและภายนอกเว็บ
-            - ผูกกับ window โดยตรง
-                    </pre>
-                <div class="button-container">
-                    <button class="btn">HTML Tutorial</button>
-                    <button class="btn">Visit Website</button>
-                </div>
+
+                <a href="" class="btn-visit">Visit Website</a>
+                <p>สร้างปุ่มด้วยแท็ก button</p>
+                <pre>&lt;button onclick="document.location='index.html'"&gt;HTML Tutorial&lt;/button&gt;
+                - มักใช้เมื่อลิงก์ไป หน้าในเว็บเดียวกัน
+                - ผูกกับ DOM (document) โดยตรง
+
+                &lt;button onclick="location.href='https://www.example.com'"&gt;Visit Website&lt;/button&gt;
+                - นิยมใช้มากกว่า
+                - เหมาะทั้งลิงก์ ภายในและภายนอกเว็บ
+                - ผูกกับ window โดยตรง
+                </pre>
+                <button class="my-button">HTML Tutorial</button>
+                <button class="my-button">Visit Website</button>
 
                 <div class="grid-3-col">
                     <div>
@@ -286,10 +285,10 @@
                     <pre>
             &lt;a href="https://youtube.com"&gt;
             &lt;img src="images/sample.jpg" width="250"&gt;
-            &lt;a&gt;
-            </pre>
+            &lt;/a&gt;
+                </pre>
             <a class="image-link" href="https://youtube.com" target="_blank">
-                <img src="file/images.png" width="250" alt="youtube logo"></a>
+            <img src="file\images.png" width="250" alt="youtube logo"></a>
 
                 <div class="note">💡หากต้องการใช้รูปของตนเอง ต้องเก็บรูปไว้ในโฟลเดอร์ เช่น images/photo.jpg</div>
             </div>
