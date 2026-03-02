@@ -474,6 +474,182 @@ a:hover {
   transform: translateY(-2px);
   box-shadow: 0 8px 20px rgba(102, 126, 234, 0.35);
 }
+.contact-form-new {
+  background: linear-gradient(135deg, #336940 0%, #88e98c 100%);
+  padding: 30px;
+  border-radius: 15px;
+  border: 1px solid #948787;
+  margin: 0 auto;
+  box-shadow: 0 10px 30px #b6b6b6;
+}
+.contact-title-new {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 20px;
+  text-align: center;
+  text-shadow: 0 2px 4px #66686c;
+}
+.form-label-new {
+  font-size: 0.8rem;
+  color: #fff;
+  font-weight: 500;
+  display: block;
+  margin-bottom: 10px;
+}
+.contact-form-new .form-input-new {
+  width: 100%;
+  padding: 12px 15px;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  background-color: #f5f3f3f8;
+  border: 2px solid #b1b1b1c7;
+  color: #333;
+}
+.form-button-new {
+  width: 100%;
+  border: none;
+  padding: 12px 30px;
+  border-radius: 20px;
+  cursor: pointer;
+  color: #fff;
+  background-color: #de33ab;
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 15px auto 0;
+}
+.contact-form-new .form-button-new:hover {
+  background: linear-gradient(45deg, #3d3a7c, #ff6a95);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(222, 51, 171, 0.35);
+}
+.contact-form-new2 {
+  background: linear-gradient(135deg, #4b6e6e 0%, #71fcf7 100%);
+  padding: 30px;
+  border-radius: 15px;
+  border: 1px solid #948787;
+  margin: 0 auto;
+  box-shadow: 0 10px 30px #b6b6b6;
+}
+.form-button-new2 {
+  width: 100%;
+  border: none;
+  padding: 12px 30px;
+  border-radius: 20px;
+  cursor: pointer;
+  color: #fff;
+  background-color: #d56a28;
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 10px auto 0;
+}
+.contact-form-new2 .form-button-new2:hover {
+  background: linear-gradient(45deg, #d52828, #f09aff);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(213, 106, 40, 0.35);
+}
+.contact-form-new2 .form-input-new,
+.contact-form-new2 .form-textarea-new {
+  width: 100%;
+  padding: 12px 15px;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  background-color: #f5f3f3f8;
+  border: 2px solid #b1b1b1c7;
+  color: #333;
+}
+.form-textarea-new2 {
+  resize: vertical;
+  min-height: 100px;
+  border-radius: 5px;
+  width: 100%;
+}
+
+/* =================================================================================== */
+/* ผู้เขียนแนะนำตัว */
+/* =================================================================================== */
+.widget-title {
+  font-weight: 800;
+  margin-bottom: 8px;
+  font-size: 1rem;
+}
+
+.auther-photo {
+  background-color: #e9e9e9ea;
+  /* padding: 100px 0; */
+  height: 140px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 8px 0;
+  border-radius: 4px;
+}
+
+.btn-facebook {
+  background-color: #3344da;
+  color: #fff;
+  padding: 8px 15px;
+  border-radius: 4px;
+  margin-top: 8px;
+  display: inline-block;
+}
+
+.box-facebook {
+  background-color: #e9e9e9ea;
+  padding: 16px 0;
+  text-align: center;
+  border-radius: 4px;
+}
+.space-box {
+  background-color: #e9e9e9ea;
+  /* padding: 100px 0; */
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 8px 0;
+  border-radius: 4px;
+}
+
+:root {
+  --line: rgba(238, 148, 30, 0.863);
+  --bg01: #fde55c;
+  --bg02: #f8e4a3;
+  --bg03: #80ff86;
+}
+.wrap-gold-table {
+  background-color: var(--bg02);
+  margin: 0 auto;
+  border-radius: 16px;
+  overflow: hidden;
+  border: 2px solid var(--line);
+}
+
+.gold-table {
+  border: 1px solid var(--line);
+  border-collapse: collapse;
+  width: 100%;
+}
+.gold-table thead th,
+.gold-table tbody th {
+  background-color: var(--bg01);
+}
+
+.gold-table th,
+.gold-table td {
+  border: 1px solid var(--line);
+  padding: 10px 2px;
+}
+
+.footer {
+  background-color: #000000f3;
+  color: #ffffff;
+  text-align: center;
+  font-size: 12px;
+  padding: 25px;
+  margin-top: 10px;
+}
+
 /*==== Right Side-Aside ====*/
 .widget {
   background-color: white;
@@ -484,4 +660,8 @@ a:hover {
 
 .widget + .widget {
   margin-top: 10px;
+}
+.gold-table .total-box th,
+.gold-table .total-box td {
+  background-color: var(--bg03);
 }
